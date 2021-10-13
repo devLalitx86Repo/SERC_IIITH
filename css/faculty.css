@@ -1,0 +1,48 @@
+#cards .card {
+  border-radius: 20px;
+  min-height: 100%;
+  background-color: rgba(228, 235, 248, 0.719);
+}
+
+#cards .heading-border {
+  position: absolute;
+  width: 100%;
+  top: 60%;
+}
+
+#cards .card .user-picture img {
+  position: absolute;
+  top: -20%;
+  right: 10%;
+  background: #f8f9fa !important;
+  padding: 10px;
+}
+
+#cards .card .user-content .user-name {
+  margin-right: 150px;
+}
+
+.img-hover-zoom--colorize img {
+  height: auto;
+  transition: transform 0.5s;
+  filter: grayscale(100%);
+}
+
+.img-hover-zoom--colorize:hover img {
+  filter: grayscale(0);
+  transform: scale(1.05);
+}
+.div-category {
+  background-color: rgba(199, 215, 245, 0.719);
+  border-radius: 10;
+  padding: 10px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 5px;
+}
+.category-title {
+  margin: 0px;
+  font-size: 1.4rem;
+  position: relative;
+  color: rgb(94, 93, 93);
+}

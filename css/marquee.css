@@ -1,0 +1,70 @@
+marquee {
+  background: #0089fa;
+}
+
+.rightTI {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: marquee 32s linear infinite;
+}
+.rightTI:hover {
+  animation-play-state: paused;
+}
+.marquee-div:hover {
+  animation-play-state: paused;
+}
+@-webkit-keyframes marquee {
+  0% {
+    text-indent: 100%;
+  }
+  100% {
+    text-indent: -100%;
+  }
+}
+
+.rightCSS {
+  background: #f4f0eb;
+  overflow: hidden;
+}
+.rightCSS div {
+  position: relative;
+  animation: CSSright linear 18s infinite;
+}
+@keyframes CSSright {
+  0% {
+    right: -100%;
+  }
+  100% {
+    right: 100%;
+  }
+}
+.rightCSS:hover div {
+  animation-play-state: paused;
+}
+
+.li {
+  float: left;
+  width: 100%;
+  height: 32px;
+  padding-top: 5px;
+  padding-left: 2%;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  background: #f4f0eb;
+}
+.announceTag {
+  width: 15%;
+  float: left;
+  color: white;
+  height: 32px;
+  padding-top: 3px;
+  padding-left: 2px;
+  background-color: rgba(20, 20, 20, 0.726);
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
